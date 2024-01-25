@@ -1,0 +1,43 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: white;
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+.display {
+  color: #475569;
+  grid-row: span 2;
+  font-size: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.control {
+  margin-top: 16px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#inc {
+  color: #67bea6;
+  background-color: #daf6eb;
+}
+#dec {
+  color: #ef8583;
+  background-color: #fbefef;
+}
+#res {
+  color: #5192ed;
+  background-color: #edf4fe;
+}
